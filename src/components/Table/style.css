@@ -1,0 +1,33 @@
+
+table {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+  }
+  
+
+* Establece el margen inferior de las dos primeras tablas a cero */
+#events-stats,
+#upcoming-events-stats {
+  margin-bottom: 0;
+}
+
+
+#upcoming-events-stats th,
+#upcoming-events-stats td {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+table tr {
+  background-color: rgba(0, 0, 0);
+}
+
+table th,
+table td {
+    text-align: center !important;
+  vertical-align: middle !important;
+
+}

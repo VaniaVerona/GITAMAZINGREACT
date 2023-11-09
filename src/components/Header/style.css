@@ -1,0 +1,25 @@
+.bold-text {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+
+.navbar-toggler-icon {
+  background-color: #DC026A;
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.navbar-nav .nav-link.btn {
+  color: white;
+  margin-right: 0.5rem;
+}
+
+
+#home-btn.active,
+#upcoming-events-btn.active,
+#past-events-btn.active,
+#contact-btn.active,
+#stats-btn.active {
+  background-color: #dc026b8a;
+  transform: translateY(-3px);
+}

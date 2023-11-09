@@ -1,0 +1,41 @@
+.carousel-inner {
+  border-radius: 5rem !important; /* Agrega bordes redondeados al contenedor */
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+}
+
+.carousel-image {
+  width: 100%;
+  border-radius: 5rem;
+  height: 100%;
+  object-fit: cover; /* Asegura que la imagen se ajuste al contenedor */
+  animation: pulse 10s infinite alternate; /* Define la animación */
+}
+
+.text-3d {
+  font-size: 2.5rem;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 5px 5px 0 #000, 8px 8px 0 #000;
+}
+
+.custom-carousel {
+  margin-top: 100px; /* Ajusta el valor según la cantidad de espacio que desees entre la parte superior de la página y el carrusel */
+}
+
+
+@media (max-width: 425px) {
+  .text-3d {
+    font-size: 1.5rem; /* Tamaño de fuente para ventanas con ancho de 425px o menos */
+    display: flex; /* Utilizar display flex */
+    align-items: center; /* Centrar verticalmente */
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.10); /* Escala la imagen al 110% al 100% de la animación */
+}
+}

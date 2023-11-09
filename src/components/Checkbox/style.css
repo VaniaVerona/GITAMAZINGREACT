@@ -1,0 +1,20 @@
+#category-checkboxes label {
+  font-size: 18px;
+  }
+
+#category-checkboxes .form-check {
+  display: flex;
+  align-items: center;
+  margin-right: 12px;
+ 
+}
+
+@media (min-width: 1200px) {
+  #category-checkboxes label {
+    font-size: 22px; 
+  }
+
+    #category-checkboxes .form-check {
+    margin-right: 20px; 
+  }
+}

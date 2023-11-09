@@ -1,0 +1,50 @@
+body {
+  overflow-x: hidden;
+  font-family: Verdana, arial, sans-serif;
+  background-image: url('./src/assets/img/fondo1.jpg');
+  background-size: cover;
+  }
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background-color: rgba(0, 0, 0, 0.5)!important;
+}
+
+
+.form-check-input:checked {
+  background-color: #dc026a;
+  border-color: #dc026a;
+}
+
+.form-control[type="search"]+.btn-outline-success {
+  color: white;
+  background-color: #DC026A;
+  border-color: #DC026A;
+}
+
+.form-control[type="search"]+.btn-outline-success:hover,
+.form-control[type="search"]+.btn-outline-success:focus {
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(0, 0, 0);
+}
+
+.btn-primary {
+  background-color: #DC026A;
+  border-color: #000000;
+}
+
+
+.main-content {
+  min-height: calc(100vh - 5rem);
+  padding-bottom: 50px; 
+ 
+}   
+
+
+.texto-blanco {
+  color: white;
+}
